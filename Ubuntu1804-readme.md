@@ -156,12 +156,11 @@
 | 12.0.2    | AdoptOpenJDK | JAVA_HOME_12_X64     |
 
 ### PHP
-- PHP 7.1.33
-- PHP 7.2.33
-- PHP 7.3.21
-- PHP 7.4.9
-- Composer 1.10.10
-- PHPUnit 7.5.20
+| Tool | Versions |
+|-|-|
+| PHP | 7.1.33<br>7.2.33<br>7.3.21<br>7.4.9 |
+| Composer | 1.10.10 |
+| PHPUnit | 7.5.20 |
 
 ### Haskell
 - GHC 8.10.2
