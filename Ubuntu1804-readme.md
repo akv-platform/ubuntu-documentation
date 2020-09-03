@@ -164,7 +164,7 @@ of your job to start the service: 'sudo systemctl start mysql.service
 - 3.7.9
 - 3.8.5
 #### PyPy
-- 2.7.13, 3.6.9 (PyPy 7.3.1 with GCC 7.3.1 20180303 (Red Hat 7.3.1-5))
+- PyPy 7.3.1 with GCC 7.3.1 20180303 (Red Hat 7.3.1-5), Python versions: 2.7.13, 3.6.9 
 #### Node
 - 8.17.0
 - 10.22.0
