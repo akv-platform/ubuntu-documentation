@@ -245,8 +245,7 @@ of your job to start the service: 'sudo systemctl start mysql.service
 | Android Support Repository | 47.0.0       |
 | Google Play services       | 49           |
 | Google Repository          | 58           |
-| CMake                      | 3.6.4111459 |
-| CMake                      | 3.10.2.4988404 |
+| CMake                      | 3.6.4111459<br>3.10.2.4988404 |
 | NDK                        | 21.3.6528147 |
 
 ### Cached Docker images
