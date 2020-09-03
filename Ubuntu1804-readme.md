@@ -202,34 +202,14 @@ MySQL service is disabled by default. Use the following command as a part of you
 - MS SQL Server Client Tools
 
 ### Cached tools
-- Ruby:
-  - Ruby 2.4.10
-  - Ruby 2.5.8
-  - Ruby 2.6.6
-  - Ruby 2.7.1
-- Python:
-  - Python 2.7.18
-  - Python 3.5.9
-  - Python 3.6.12
-  - Python 3.7.9
-  - Python 3.8.5
-- PyPy:
-  - PyPy 2.7.13 [PyPy 7.3.1 with GCC 7.3.1 20180303 (Red Hat 7.3.1-5)]
-  - PyPy 3.6.9 [PyPy 7.3.1 with GCC 7.3.1 20180303 (Red Hat 7.3.1-5)]
-- node:
-  - node 8.17.0
-  - node 10.22.0
-  - node 12.18.3
-  - node 14.8.0
-- go:
-  - go 1.11.13
-  - go 1.12.17
-  - go 1.13.15
-  - go 1.14.7
-  - go 1.15.0
-- boost:
-  - boost 1.69.0
-  - boost 1.72.0
+| Tool | Version |
+|-|-|
+| Ruby | 2.4.10<br>2.5.8<br>2.6.6<br>2.7.1 |
+| Python | 2.7.18<br>3.5.9<br>3.6.12<br>3.7.9<br>3.8.5 |
+| PyPy | 2.7.13 [PyPy 7.3.1 with GCC 7.3.1 20180303 (Red Hat 7.3.1-5)]<br>3.6.9 [PyPy 7.3.1 with GCC 7.3.1 20180303 (Red Hat 7.3.1-5)] |
+| node | 8.17.0<br>10.22.0<br>12.18.3<br>14.8.0 |
+| go | 1.11.113<br>1.12.17<br>1.13.15<br>1.14.7<br>1.15.0 |
+| boost | 1.69.0<br>1.72.0 |
 
 ### Android SDK Tools
 | Package Name   | Description                                 |
