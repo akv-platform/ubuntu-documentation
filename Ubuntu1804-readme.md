@@ -67,7 +67,6 @@
 - nvm 0.35.3
 - Packer 1.6.1
 - PhantomJS 2.1.1
-- PostgreSQL 12.4
 - Swig 3.0.12
 - Terraform 0.13.0
 - unzip 1.1.1
