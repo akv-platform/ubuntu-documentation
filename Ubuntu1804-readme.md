@@ -265,4 +265,4 @@ of your job to start the service: 'sudo systemctl start mysql.service
 - mcr.microsoft.com/azure-pipelines/node8-typescript:latest
 
 ### Installed apt packages
-- dnsutils, iproute2, iputils-ping, libunwind8, locales, openssh-client, tzdata, upx, libxkbfile-dev, pkg-config, libsecret-1-dev, libxss1, libgconf-2-4, dbus, xvfb, libgbm-dev, libgtk-3-0, tk, fakeroot, dpkg, rpm, xz-utils, xorriso, zsync, gnupg2, lib32z1, texinfo, libsqlite3-dev, libc++-dev, libc++abi-dev, file, ftp, netcat, ssh, parallel, rsync, shellcheck, sudo, telnet, time, m4, bison, flex, patchelf, bzip2, brotli, yamllint, libcurl3
+- dnsutils, iproute2, iputils-ping, libunwind8, locales, openssh-client, tzdata, upx, libxkbfile-dev, pkg-config, libsecret-1-dev, libxss1, libgconf-2-4, dbus, xvfb, libgbm-dev, libgtk-3-0, tk, fakeroot, dpkg, rpm, xz-utils, xorriso, zsync, gnupg2, lib32z1, texinfo, libsqlite3-dev, libc++-dev, libc++abi-dev, file, ftp, netcat, ssh, parallel, rsync, shellcheck, sudo, telnet, time, bison, flex, patchelf, bzip2, brotli, yamllint, libcurl3
