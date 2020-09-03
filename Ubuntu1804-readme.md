@@ -2,72 +2,10 @@
 - Image Version: 20200820.1
 
 ## Installed Software
-### Basic packages
-- dnsutils
-- iproute2
-- iputils-ping
-- libunwind8
-- locales
-- openssh-client
-- tzdata
-- upx
-- zstd
-- libxkbfile-dev
-- pkg-config
-- libsecret-1-dev
-- libxss1
-- libgconf-2-4
-- dbus
-- xvfb
-- libgbm-dev
-- libgtk-3-0
-- tk
-- fakeroot
-- dpkg
-- rpm
-- xz-utils
-- xorriso
-- zsync
-- gnupg2
-- lib32z1
-- texinfo
-- libsqlite3-dev
-- libc++-dev
-- libc++abi-dev
-- curl
-- file
-- ftp
-- jq
-- netcat
-- ssh
-- parallel
-- rsync
-- shellcheck
-- sudo
-- telnet
-- time
-- unzip
-- zip
-- wget
-- m4
-- bison
-- flex
-- patchelf
-- bzip2
-- sqlite3
-- brotli
-- yamllint
-- libcurl3
-
 ### Language and Runtime
-- GNU C++ 7.5.0
-- GNU C++ 8.4.0
-- GNU C++ 9.3.0
-- GNU Fortran 8.4.0
-- GNU Fortran 9.3.0
-- Clang 6.0 (6.0.0)
-- Clang 8 (8.0.0)
-- Clang 9 (9.0.0)
+- GNU C++ 7.5.0, 8.4.0, 9.3.0
+- GNU Fortran 8.4.0, 9.3.0
+- Clang 6.0 (6.0.0), 8 (8.0.0), (9.0.0)
 - Erlang 11.0.3
 - Mono 6.10.0.104
 - Node.js 12.18.3
@@ -104,6 +42,7 @@
 - Bazelisk 1.6.1
 - Buildah 1.15.1
 - CMake 3.17.0
+- curl 7.6.5
 - Docker Compose 1.26.2
 - Docker-Moby 19.03.12
 - Docker-Buildx 0.4.2
@@ -122,7 +61,7 @@
 - Kubectl 1.18.8
 - Minikube 1.12.3
 - Mercurial 4.5.3
-- MongoDB 4.4.0
+- m4 1.4.18
 - Leiningen 2.9.4
 - Newman (5.1.2)
 - nvm 0.35.3
@@ -131,6 +70,11 @@
 - PostgreSQL 12.4
 - Swig 3.0.12
 - Terraform 0.13.0
+- unzip 1.1.1
+- wget 7.8.9
+- zip 1.2.3
+- zstd 5.6.7
+- jq 4.7.9
 
 
 ### CLI Tools
@@ -193,23 +137,49 @@
 ### Az Module
 - 1.0.0 1.6.0 2.3.2 2.6.0 2.8.0 3.1.0 3.5.0 3.8.0 4.3.0 4.4.0
 
-### MySQL
-```
-MySQL service is disabled by default. Use the following command as a part of your job to start the service: 'sudo systemctl start mysql.service
-```
+### Databases
+- Postgre SQL 12.4
+- MongoDB 4.4.0
+- sqlite3 3.22.0
+
+#### MySQL
 - MySQL (mysql Ver 14.14 Distrib 5.7.31, for Linux (x86_64) using EditLine wrapper)
 - MySQL Server (user:root password:root)
 - MS SQL Server Client Tools
+```
+MySQL service is disabled by default. Use the following command as a part
+of your job to start the service: 'sudo systemctl start mysql.service
+```
 
 ### Cached tools
-| Tool | Version |
-|-|-|
-| Ruby | 2.4.10<br>2.5.8<br>2.6.6<br>2.7.1 |
-| Python | 2.7.18<br>3.5.9<br>3.6.12<br>3.7.9<br>3.8.5 |
-| PyPy | 2.7.13 [PyPy 7.3.1 with GCC 7.3.1 20180303 (Red Hat 7.3.1-5)]<br>3.6.9 [PyPy 7.3.1 with GCC 7.3.1 20180303 (Red Hat 7.3.1-5)] |
-| node | 8.17.0<br>10.22.0<br>12.18.3<br>14.8.0 |
-| go | 1.11.113<br>1.12.17<br>1.13.15<br>1.14.7<br>1.15.0 |
-| boost | 1.69.0<br>1.72.0 |
+#### Ruby
+- 2.4.10
+- 2.5.8
+- 2.6.6
+- 2.7.1
+#### Python
+- 2.7.18
+- 3.5.9
+- 3.6.12
+- 3.7.9
+- 3.8.5
+#### PyPy
+- 2.7.13 [PyPy 7.3.1 with GCC 7.3.1 20180303 (Red Hat 7.3.1-5)]
+- 3.6.9 [PyPy 7.3.1 with GCC 7.3.1 20180303 (Red Hat 7.3.1-5)]
+#### Node
+- 8.17.0
+- 10.22.0
+- 12.18.3
+- 14.8.0
+#### Go
+- 1.11.13
+- 1.12.17
+- 1.13.15
+- 1.14.7
+- 1.15.0
+#### Boost
+- 1.69.0
+- 1.72.0
 
 ### Android SDK Tools
 | Package Name   | Description                                 |
@@ -295,3 +265,6 @@ MySQL service is disabled by default. Use the following command as a part of you
 - jekyll/builder:latest
 - ubuntu:14.04
 - mcr.microsoft.com/azure-pipelines/node8-typescript:latest
+
+### Installed apt packages
+- dnsutils, iproute2, iputils-ping, libunwind8, locales, openssh-client, tzdata, upx, libxkbfile-dev, pkg-config, libsecret-1-dev, libxss1, libgconf-2-4, dbus, xvfb, libgbm-dev, libgtk-3-0, tk, fakeroot, dpkg, rpm, xz-utils, xorriso, zsync, gnupg2, lib32z1, texinfo, libsqlite3-dev, libc++-dev, libc++abi-dev, file, ftp, netcat, ssh, parallel, rsync, shellcheck, sudo, telnet, time, m4, bison, flex, patchelf, bzip2, brotli, yamllint, libcurl3
