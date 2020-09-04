@@ -179,72 +179,18 @@ of your job to start the service: 'sudo systemctl start mysql.service
 - 1.69.0
 - 1.72.0
 
-### Android SDK Tools
-| Package Name   | Description                                 |
-| -------------- | ------------------------------------------- |
-| platform-tools | Android SDK Platform-Tools, Revision 30.0.4 |
-| tools          | Android SDK Tools 26.1.1, Revision 26.1.1   |
-
-### Android SDK Platforms
-| Package Name | Description                                |
-| ------------ | ------------------------------------------ |
-| android-19   | Android SDK Platform 17, Revision 4        |
-| android-19   | Android SDK Platform 19, Revision 4        |
-| android-21   | Android SDK Platform 21, Revision 2        |
-| android-22   | Android SDK Platform 22, Revision 2        |
-| android-23   | Android SDK Platform 23, Revision 3        |
-| android-24   | Android SDK Platform 24, Revision 2        |
-| android-25   | Android SDK Platform 25, Revision 3        |
-| android-26   | Android SDK Platform 26, Revision 2        |
-| android-27   | Android SDK Platform 27, Revision 3        |
-| android-28   | Android SDK Platform 28, rev 6, Revision 6 |
-| android-29   | Android SDK Platform 29, Revision 5        |
-| android-30   | Android SDK Platform 30, Revision 3        |
-
-### Android SDK Build-Tools
-| Package Name       | Description                              |
-| ------------------ | ---------------------------------------- |
-| build-tools-19.1.0 | Android SDK Build-Tools, Revision 19.1.0 |
-| build-tools-20.0.0 | Android SDK Build-Tools, Revision 20.0.0 |
-| build-tools-21.1.2 | Android SDK Build-Tools, Revision 21.1.2 |
-| build-tools-22.0.1 | Android SDK Build-Tools, Revision 22.0.1 |
-| build-tools-23.0.1 | Android SDK Build-Tools, Revision 23.0.1 |
-| build-tools-23.0.2 | Android SDK Build-Tools, Revision 23.0.2 |
-| build-tools-23.0.3 | Android SDK Build-Tools, Revision 23.0.3 |
-| build-tools-24.0.0 | Android SDK Build-Tools, Revision 24.0.0 |
-| build-tools-24.0.1 | Android SDK Build-Tools, Revision 24.0.1 |
-| build-tools-24.0.2 | Android SDK Build-Tools, Revision 24.0.2 |
-| build-tools-24.0.3 | Android SDK Build-Tools, Revision 24.0.3 |
-| build-tools-25.0.0 | Android SDK Build-Tools, Revision 25.0.0 |
-| build-tools-25.0.1 | Android SDK Build-Tools, Revision 25.0.1 |
-| build-tools-25.0.2 | Android SDK Build-Tools, Revision 25.0.2 |
-| build-tools-25.0.3 | Android SDK Build-Tools, Revision 25.0.3 |
-| build-tools-26.0.0 | Android SDK Build-Tools, Revision 26.0.0 |
-| build-tools-26.0.1 | Android SDK Build-Tools, Revision 26.0.1 |
-| build-tools-26.0.2 | Android SDK Build-Tools, Revision 26.0.2 |
-| build-tools-26.0.3 | Android SDK Build-Tools, Revision 26.0.3 |
-| build-tools-27.0.0 | Android SDK Build-Tools, Revision 27.0.0 |
-| build-tools-27.0.1 | Android SDK Build-Tools, Revision 27.0.1 |
-| build-tools-27.0.2 | Android SDK Build-Tools, Revision 27.0.2 |
-| build-tools-27.0.3 | Android SDK Build-Tools, Revision 27.0.3 |
-| build-tools-28.0.0 | Android SDK Build-Tools, Revision 28.0.0 |
-| build-tools-28.0.1 | Android SDK Build-Tools, Revision 28.0.1 |
-| build-tools-28.0.2 | Android SDK Build-Tools, Revision 28.0.2 |
-| build-tools-28.0.3 | Android SDK Build-Tools, Revision 28.0.3 |
-| build-tools-29.0.0 | Android SDK Build-Tools, Revision 29.0.0 |
-| build-tools-29.0.1 | Android SDK Build-Tools, Revision 29.0.1 |
-| build-tools-29.0.2 | Android SDK Build-Tools, Revision 29.0.2 |
-| build-tools-29.0.3 | Android SDK Build-Tools, Revision 29.0.3 |
-| build-tools-30.0.0 | Android SDK Build-Tools, Revision 30.0.0 |
-
-### Android Extra Packages
-| Package Name               | Version      |
-| -------------------------- | ------------ |
-| Android Support Repository | 47.0.0       |
-| Google Play services       | 49           |
-| Google Repository          | 58           |
-| CMake                      | 3.6.4111459<br>3.10.2.4988404 |
-| NDK                        | 21.3.6528147 |
+### Android
+| Package Name | Version |
+|-|-|
+| Android SDK Platform-Tools | 30.0.4 |
+| Android SDK Tools | 26.1.1 |
+| platforms | android-30<br>android-29<br>android-28<br>android-27<br>android-26<br>android-25<br>android-24<br>android-23<br>android-22<br>android-21<br>android-19<br>android-17 |
+| build-tools | 30.0.0<br>29.0.3 29.0.2 29.0.1 29.0.0<br>28.0.3 28.0.2 28.0.1 28.0.0<br>27.0.3 27.0.2 27.0.1 27.0.0<br>26.0.3 26.0.2 26.0.1 26.0.0<br>25.0.3 25.0.2 25.0.1 25.0.0<br>24.0.3 24.0.2 24.0.1 24.0.0<br>23.0.3 23.0.2 23.0.1<br>22.0.1<br>21.1.12<br>20.0.0<br>19.1.0<br>17.0.0 |
+| Android support Repository | 47.0.0 |
+| Google Play services | 49 |
+| Google Repository | 58 |
+| Cmake | 3.6.4111459<br>3.10.2.4988404 |
+| NDK | 21.3.6528147 |
 
 ### Cached Docker images
 - alpine:3.7
